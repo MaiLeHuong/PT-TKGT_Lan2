@@ -1,0 +1,10 @@
+-Bài toán đổi tiền chỉ đổi khi đầu vào số tiền cần đổi lớn hơn 1000 đồng
+-Bài toán sẽ tìm giá trị biến "muc", biến lưu giá trị chỉ số của mệnh giá lớn nhất nhưng không quá số tiền cần đổi
+-Ta chạy vòng lặp từ "muc" tới phần tử số 8 là phần tử cuối của mảng mệnh giá "chuan".
+-Dùng vòng lặp while để xác định xem số tiền đó còn lớn hơn mệnh giá hiện tại không, nếu còn thì tiếp tục thực hiện lệnh trong vòng lặp
+-Các lệnh trong vòng lặp sẽ giảm số tiền xuống khi trừ mệnh giá đó, và cộng nhị phân mảng "doi"
+-ví dụ: input:     543000
+        output:    Menh gia 500000: 1 to
+                   Menh gia 20000 : 2 to
+                   Menh gia 2000  : 1 to
+                   Menh gia 1000  : 1 to
